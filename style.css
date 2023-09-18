@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: rgba(0,0,0,0.2) ;
+}
+.hover:hover{
+    border: solid 1px #fff;
+}
+.nav-bar{
+    background-color: #0F1111;
+    height: 60px;
+    display: flex;
+}
+.logo {
+    margin: 6px;
+    
+}
+.logo img{
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    height: 50px;
+}
+.Deliver{
+    display: flex;
+    position: relative;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+    align-items: center;
+    color: aliceblue;
+    justify-items: center;
+}
+.deliver-text{
+    width: 55px;
+}
+.Deliver-icon{
+    position: relative;
+    top: 7px;
+    padding-right: 4px;
+}
+#first{
+    font-size: 12px;
+    opacity: 0.6;
+}
+#second{
+    font-size: 14px;
+}
+.search-bar{
+    display: flex;
+    margin: 4px 6px;
+    padding: 10px 4px 10px 3px;
+}
+#drop{
+    background-color: #e6e6e6;
+    height: 40px;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-pannel{
+    resize: none;
+    width: 780px;
+    height: 35px;
+}
+.icon-bg{
+    height: 40px;
+    width: 45px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: rgba(255, 190, 0, 0.918);
+}
+.search-bar i{
+    margin: 6px;
+    padding: 2px 0px 0px 4px;
+    font-size: 1.5rem;
+}
+.search-pannel::placeholder{
+    padding-top: 7px;
+    font-size: 1.1rem;
+}
+.extra-nav{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 19px 9px 5px;
+}
+.extra-nav img{
+    height: 20px;
+}
+#con{
+    border: 0px;
+    color: #ffffff;
+    background-color: transparent;
+}
+.signin{
+    font-size: 0.8rem;
+    width: 110px;
+    margin: 4px;
+    padding: 12px 4px 4px 4px;
+    color: #fff;
+}
+.return{
+    width: 80px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}
+.cart i{
+    color: #fff;
+    font-size: 2rem;
+}
+.cart p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.s-nav{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #232f3e;
+}
+.mall {
+    display: flex;
+    font-size: 1.1rem;
+    margin: 0px 0px 0px 18px;
+    padding: 8px;
+    color: #fff;
+}
+.s-nav p{
+    padding: 0px 0px 0px 4px;
+    color: #fff;
+}
+.td{
+    margin: 5px;
+    padding: 5px 5px 5px 0px;
+}
+.main{
+    display: flex;
+    position: absolute;
+}
+.arrow{
+    position: absolute;
+    font-size: 5rem;
+}
+.arrow i{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 80px;
+}
+.i1{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.i2{
+    position: absolute;
+    right: -1520px;
+    top: 40px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 300px;
+    padding: 20px 10px;
+    height: inherit;
+    width: 100%;
+    background-color: transparent;
+}
+.card{
+    height: 420px;
+    width: 360px;
+    margin: 8px;
+    background-color: #fff;
+
+}
+.card p{
+    margin: 10px;
+    padding: 15px 0px 0px 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card img{
+    margin: 15px 25px 10px 25px;
+    padding: 0px 0px 0px 10px;
+    width: 300px;
+    height: 270px;
+}
+.card a{
+    text-decoration: none;
+    padding-left: 38px;
+    font-size: 0.9rem;
+}
+.foot{
+    position: absolute;
+    bottom: -1100px;
+    height: 500px;
+    width: 100%;
+    background-color: #232f3e;
+}
+.infoot{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 15px 0px 15px 0px;
+    background-color: #334151;
+    width: 100%;
+    height: 20px;
+}
+.exfoot{
+    display: flex;
+    justify-content: space-around;
+    color: #ddd;
+    top: 5rem;
+    margin: 20px;
+}
+.exfoot p{
+    margin: 15px 0px 0px 0px;
+}
+.postfoot{
+    display: flex;
+    justify-content: space-evenly;
+    color: #ddd;
+    margin: 30px 150px;
+}
+.postfoot img{
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    height: 50px;
+}
+.eng{
+    display: flex;
+}
+.inr{
+    display: flex;
+}
+.us{
+    display: flex;
+}
+.postfoot p{
+    margin: 10px 0px 0px 10px;
+}
+.postfoot i{
+    margin-top: 10px;
+}
+.us img{
+    height: 20px;
+    margin: 10px 0px 0px 15px;
+}
+.us p{
+    margin: 13px 0px 0px 0px;
+}
